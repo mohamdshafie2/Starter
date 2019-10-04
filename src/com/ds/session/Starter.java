@@ -1,4 +1,4 @@
-package com.company;
+package com.ds.session;
 
 public class Starter {
 
