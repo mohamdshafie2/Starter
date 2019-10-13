@@ -19,7 +19,46 @@ public class StaticHistogram {
         // *   *
         // *****
 
+
+        //
+        // *
+        // *
+        // *   *
+        // *****
+
+
         //  PUT YOUR CODE HERE
+        String str13="*", str9="*", str2="*", str10="*",str5="*" ;
+
+        for (int i=13 ; i>0 ; i--){
+            str13 = " "  ;
+            str9  = " "  ;
+            str2  = " "  ;
+            str10 = " "  ;
+            str5  = " "  ;
+
+            if( i<=13 ){
+                str13="*";
+            }
+
+            if(i<=9){
+                str9="*";
+            }
+
+            if (i<=2 ){
+                str2="*";
+            }
+
+            if(i<=10 ){
+                str10="*";
+            }
+
+            if(i<=5){
+                str5="*";
+            }
+
+            System.out.println(str13+str9+str2+str10+str5);
+        }
 
 
 
