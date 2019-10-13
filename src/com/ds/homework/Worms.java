@@ -11,8 +11,8 @@ public class Worms {
         // 12301 became => 123+1  = 124
         // 10000 became => 1      = 1
         //
-        //        hints ...
-        //        1- use this for loop
+        // hints ...
+        // 1- use this for loop
         // 2- use string split.
         // 3- use int to String (notTaco)
 

@@ -1,4 +1,6 @@
-package com.ds.session;
+package com.ds.session.session1;
+
+import com.ds.session.session3.Car;
 
 public class Puzzle {
 
@@ -23,6 +25,7 @@ public class Puzzle {
         // 14
         // foo bar
         //
+
 
 
         // SOLUTION

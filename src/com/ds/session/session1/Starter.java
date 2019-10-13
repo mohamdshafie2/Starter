@@ -1,4 +1,4 @@
-package com.ds.session;
+package com.ds.session.session1;
 
 public class Starter {
 
