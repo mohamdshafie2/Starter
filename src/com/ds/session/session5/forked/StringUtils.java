@@ -41,18 +41,28 @@ public class StringUtils {
     /** Take a string and trim all leading and trailing spaces from it.
      * If the resulting length is zero, return null.
      */
-    public String trimToNull(String string) {
-        String result = null;
+    public String trimToNull(String s) {
 
-        if(string != null) {
-            result = string.trim();
-
-            if(result.length() == 0) {
-                result = null;
+        // Method#1
+        String toBeReturned = null;
+        if(s != null) {
+            toBeReturned = s.trim();
+            if(toBeReturned.length() == 0) {
+                toBeReturned = null;
             }
         }
+        return toBeReturned;
 
-        return result;
+
+        // Method#2
+        /*if(s == null) {
+            return null;
+        }
+        String toBeReturned2 = s.trim();
+        if(toBeReturned2.length() == 0) {
+            return null;
+        }
+        return toBeReturned2;*/
     }
 
     /** 
@@ -79,7 +89,7 @@ public class StringUtils {
     }
 
     public String cleanStringToName(final String s) {
-        char[] a = s.toCharArray();
+        char[] a = s.toCharArray() ;// "abd" > ['a' , 'b' , 'c' ]
         int l = a.length;
         StringBuilder r = new StringBuilder(l);
         
@@ -96,6 +106,7 @@ public class StringUtils {
         
         return r.toString();
     }
+
 
     public int countSpaces(final String str) {
         int count = 0;
