@@ -4,6 +4,10 @@ import java.util.Random;
 
 public class Gaps {
 
+    // given the values produced randomly above ,
+    // write the code to calculate the differences between the values ,
+    // assume it is a distance value so please make sure to give the result as a positive value
+
     static Random rand = new Random();
 
 
@@ -22,10 +26,7 @@ public class Gaps {
             System.out.println(starts[i] + "    " + ends[i]);
         }
 
-        // given the values produced randomly above ,
-        // write the code to calculate the differences between the values ,
-        // assume it is a distance value so please make sure to give the result as a positive value
-        //
+
 
 
 
