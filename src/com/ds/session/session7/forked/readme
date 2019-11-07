@@ -1,0 +1,11 @@
+This is a sample code majority of it was copied from apache licensed github repo
+https://github.com/echothreellc/echothree.git
+Directory  ( ./src/java/com/echothree/util/common/string/)
+I copied then modified code in order to make it compilable.
+
+the main objectives here are
+1- to get a peek at real world util code. learning the syntax is not the objective, it is how it is used.
+2- get a feel of how the pieces are tied together. The pain, beauty and uglyness of it all.
+
+
+
