@@ -1,8 +1,9 @@
-package com.ds.session.session8;
+package com.ds.session.session9;
 
 import java.util.*;
 
 public class CollectionsClassIterate {
+
 
 
     public static void main(String[] args){
